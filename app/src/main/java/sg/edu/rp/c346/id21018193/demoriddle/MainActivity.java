@@ -22,6 +22,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        Log.d("MainActivity", "onCreate() called.");
+
         //Event handling step 2
         tvQ1 = findViewById(R.id.textViewQ1);
         btnRevealQ1 = findViewById(R.id.buttonQ1);
